@@ -12,8 +12,9 @@ body {
     margin: 0;
     text-align: center;
     font-family: 'Nunito', sans-serif;
-    width: 700px;
+    width: 600px;
     margin: 0px auto;
+    border: 4px solid #A8DADC;
 }
 
 .bold {
@@ -93,8 +94,7 @@ h2 {
     justify-content: space-around;
     background: #A8DADC;
     border-bottom: 5px solid #457B9D;
-    
-    
+     border-radius: 5px;
 }
 
 #guide-photo {
@@ -103,7 +103,7 @@ h2 {
     margin-top: 15px;
     margin-left: 15px;
     border-radius: 5px;
-}
+
 
 #guide-text {
     padding: 0px 10px
