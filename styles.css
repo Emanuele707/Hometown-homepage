@@ -1,0 +1,108 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.hero-block {
+    background: url("ostia-view.jpg");
+    background-size: cover;
+    margin: 0px auto;
+    height: 300px;
+ }   
+ 
+#hero-text-div {
+    padding: 40px;
+
+}
+ 
+h1 {
+    margin: 0px auto 0px auto;
+    padding: 0px 0px 0px 0px;
+    background-color: #457B9D;
+    width: 180px;
+    border: 0px solid white;
+    border-radius: 5px;
+    color: white;
+    text-shadow: 0px 0px 0px black;
+}
+
+h2 {
+    margin: 10px auto 0px auto;
+    padding: 0px 10px ;
+    background-color:  #A8DADC;
+    width: 300px;
+    border: 0px solid white;
+    border-radius: 5px;
+    color: white;
+    text-shadow: 0px 0px 0px black;  
+}
+
+
+#activities-block {
+    display:flex;
+    flex-direction: column;
+    margin: 0px 0px 0px 0px;
+    padding: 10px 0px 50px 0px;
+    background: #F1FAEE;
+ }
+    
+#activities-display {
+    display:flex;
+    justify-content: space-around;
+ }   
+    
+.activities-photos {
+     
+    border: 0px solid white;
+    border-radius: 100px;
+    height: 100px;
+    width: 100px;
+}
+
+.top-activities {
+    width: 150px;
+}  
+
+#guide-block {
+    margin: 30px 30px;
+    background: white;
+}
+
+#guide-box {
+    width: 300px;
+    height: 200px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-around;
+    background: #A8DADC;
+    border-bottom: 5px solid #457B9D;
+    
+    
+}
+
+#guide-photo {
+    width: 140px;
+    height: 170px;
+    margin-top: 15px;
+    margin-left: 15px;
+    border-radius: 5px;
+}
+
+#guide-text {
+    padding: 0px 10px
+}
